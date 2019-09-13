@@ -1,0 +1,10 @@
+/* Fonts */
+
+/* CSS Files */
+@import "navbar.css";
+
+:root {
+  --main-orange: #EF6248;
+  --main-grey: #35393C;
+  --main-green: #1F9397;
+}

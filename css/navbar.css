@@ -1,4 +1,18 @@
-/* Fonts */
+body {
+  margin: 0px;
+}
 
-/* CSS Files */
+.links {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+}
+
+.profile-image {
+  background: red;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
 
