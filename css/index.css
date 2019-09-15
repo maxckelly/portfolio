@@ -1,7 +1,8 @@
 /* Fonts */
 
 /* CSS Files */
-@import "navbar.css";
+@import "./navbar.css";
+@import "./hero_page.css";
 
 :root {
   --main-orange: #EF6248;

@@ -3,7 +3,6 @@ body {
 }
 
 .navbar {
-  border-bottom: 0.03rem solid var(--main-grey);
   padding-bottom: 0.5rem;
 }
 .links {
@@ -11,10 +10,16 @@ body {
   justify-content: flex-start;
   align-items: center;
   flex-direction: row;
-  margin-top: 0.5rem;
-  margin-left: 1rem;
 }
 
+.profile-image-container {
+  box-shadow: 0px 10px 1px #ddd, 0 10px 20px #ccc;
+  padding: 10px;
+}
+
+.profile-image-container:hover {
+  transform: scale(1.1);
+}
 .profile-image {
   border-radius: 50%;
   width: 3rem;

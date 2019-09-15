@@ -1,0 +1,21 @@
+body {
+  margin: 0px;
+
+}
+
+.hero-text {
+  margin-left: 1rem;
+}
+
+.main-profile-img {
+  border-radius: 30px 10px 10px 10px
+}
+
+.hero-text h3 {
+  color: var(--main-grey);
+}
+
+.hero-text h1 {
+  color: var(--main-green);
+}
+
