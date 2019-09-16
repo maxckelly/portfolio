@@ -23,14 +23,17 @@ body {
 .contact-form {
   background-color: var(--main-white);
   justify-content: center;
-  border-radius: 30px;
+  padding: 0rem 10rem;
+  border-radius: 30px;  
+  box-shadow: 0 28px 16px -26px rgba(0, 0, 0);
   display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
   flex-direction: column;
 }
 
 .h1-text-in-form {
   color: var(--main-grey);
-  justify-content: flex-start;
   margin-bottom: 20px;
 }
 
@@ -43,6 +46,30 @@ body {
 }
 
 #message {
-  padding: 30px;
-  width: 250px;
+padding-right: 200px;
+
+}
+
+.contact-buttons {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+#contact-me-button {
+  margin-bottom: 1rem;
+  background: var(--main-green);
+  color: var(--main-white);
+  border: var(--main-grey);
+  font-size: 1rem;
+  font-weight: bold;
+  padding-right: 20rem;
+  border-radius: 10px;
+  padding-top: 1rem;
+}
+
+#contact-me-button:hover {
+ transform: scale(1.1);
+ cursor: pointer;
+
 }
