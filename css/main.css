@@ -1,0 +1,24 @@
+/* Fonts */
+@import url("https://fonts.googleapis.com/css?family=Manjari:700|Roboto:700&display=swap");
+
+/* CSS Files */
+@import "./navbar.css";
+@import "./hero_page.css";
+@import "./contact_me.css";
+
+:root {
+  --main-orange: #EF6248;
+  --main-grey: #35393C;
+  --main-green: #1F9397;
+  --main-white: white;
+  --font-family-one: 'Manjari', sans-serif;
+  --font-family-two: 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: var(--font-family-two);
+}

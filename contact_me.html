@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Max Kelly - Contact</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="./css/main.css" />
+  <script src="main.js"></script>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="links">
+      <div class="profile-image-container">
+        <img class="profile-image" src="./images/profile_image.png" alt="">
+      </div>
+      <a href="./index.html" class="navbar-link"> Home </a>
+      <a href="#" class="navbar-link"> Experience </a>
+      <a href="#" class="navbar-link"> About Me </a>
+      <a href="./contact_me.html" class="navbar-link"> Contact Me </a>
+      <a href="#" class="navbar-link"> My Portfolio </a>
+    </div>
+  </nav>
+  
+  <div class="empty-container-contact-me"></div>
+  <div class="contact-page">
+    <div class="hero-container">
+      <div class="hero-text">
+        <h1> Contact Me </h1>
+        <h4> Please fill out the form or feel free to contact me via
+          <br> Email: maxckel@gmail.com
+          <br> Mobile 0419096087 
+        </h4>
+      </div>
+      <form class="contact-form">
+        <h1 class="h1-text-in-form"> Send me a message</h1>
+        <div class="row">
+          <label class="required" for="name">Your name:</label>
+          <br />
+          <input id="name" class="input" name="name" type="text" value="" size="30" placeholder="Name"/>
+          <br />
+          <span id="name_validation" class="error_message"></span>
+        </div>
+          <div class="row">
+          <label class="required" for="email">Your email:</label>
+          <br />
+          <input id="email" class="input" name="email" type="text" value="" size="30" placeholder="email"/>
+          <br />
+          <span id="email_validation" class="error_message"></span>
+        </div>
+        <div class="row">
+          <label class="required" for="message">Your message:</label>
+          <br />
+          <textarea id="message" class="input" name="message" rows="7" cols="30" placeholder="Your message"></textarea>
+          <br />
+          <span id="message_validation" class="error_message"></span>
+        </div>
+        
+        <input id="contact-me-button" type="submit" value="Send email" />
+
+      </div>
+    </div>
+  </div>
+</body>
+</html>

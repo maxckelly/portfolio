@@ -1,0 +1,48 @@
+body {
+  margin: 0px;
+  background: url("./../images/svgOption3.svg") no-repeat;
+  background-size: cover;
+}
+
+.empty-container-contact-me {
+  width: 100vw;
+}
+
+.contact-page {
+  height: calc(100vh - 162px);
+  width: 100vw;
+}
+
+.hero-text h4 {
+  color: var(--main-grey);
+  font-size: 1rem;
+  font-weight: 100;
+  font-family: var(--font-family-two);
+}
+
+.contact-form {
+  background-color: var(--main-white);
+  justify-content: center;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.h1-text-in-form {
+  color: var(--main-grey);
+  justify-content: flex-start;
+  margin-bottom: 20px;
+}
+
+.input {
+  text-decoration: none;
+  border: none;
+  border-bottom: 1px solid var(--main-green);
+  margin-bottom: 4rem; 
+  padding-bottom: 0.5rem;
+}
+
+#message {
+  padding: 30px;
+  width: 250px;
+}
