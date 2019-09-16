@@ -4,6 +4,7 @@ body {
 
 .navbar {
   padding-bottom: 0.5rem;
+  width: 50%;
 }
 .links {
   display: flex;
@@ -13,8 +14,8 @@ body {
 }
 
 .profile-image-container {
-  box-shadow: 0px 10px 1px #ddd, 0 10px 20px #ccc;
-  padding: 10px;
+  box-shadow: 0px 6px 5px #ccc;
+  padding: 15px;
 }
 
 .profile-image-container:hover {
