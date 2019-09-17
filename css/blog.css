@@ -1,0 +1,88 @@
+body {
+  margin: 0px;
+}
+
+#blog-page {
+  margin: 0px;
+  background: url("./../images/svgOption6.svg") no-repeat;
+  background-size: cover;
+}
+
+.blog-main-container {
+  width: 100vw;
+  height: calc(100vh - 82px);
+  margin-left: 1rem;
+}
+
+.blogs {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns:  0.5fr 0.5fr 0.5fr 0.5fr 0.5fr;
+  align-content: space-around;
+  grid-template-rows: 100px auto 100px 100px 100px 100px 100px; 
+  grid-column-gap: 10px;
+  grid-row-gap: 15px;
+}
+
+.blog-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: column;
+  
+}
+
+.blog-header {
+  color: var(--main-white);
+  margin: 0px;
+  margin-left: 1rem;
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+
+.blog-text {
+  margin: 0px;
+  color: var(--main-white);
+  margin-left: 1rem;
+}
+
+.blog-button {
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+  background: var(--main-white);
+  border: 1px solid var(--main-grey);
+  border-radius: 0.3em;
+  font-weight: bold;
+  padding: 0.5rem;
+  color: var(--main-orange);
+}
+
+.blog-button:hover {
+  transform: scale(1.1)
+}
+
+#blog-one-img {
+  background: linear-gradient(-225deg, rgba(0,0,0,0.61) 0%, rgba(0,0,0,0.40) 50%), url("./../images/japan_blog_img.jpg");
+  border-radius: 0.5rem;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+#blog-one {
+  grid-area: 6 / 1 / 2 / 1;
+  background: green;
+  border-radius: 0.5rem;
+  border: 1px solid var(--main-grey);
+  box-shadow: 0 28px 16px -26px rgba(0, 0, 0);
+}
+
+#blog-two {
+  grid-area: 4/ 2 / 1 / 2;
+  background: gold;
+  border-radius: 0.5rem;
+  border: 1px solid var(--main-grey);
+  box-shadow: 0 28px 16px -26px rgba(0, 0, 0);
+}
+
