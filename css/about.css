@@ -3,3 +3,23 @@ body {
   background: url("./../images/svgOption6.svg") no-repeat;
   background-size: cover;
 }
+
+.about-me-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.about-me-text-heading {
+  color: var(--main-green);
+  font-size: 3.5rem;
+  font-family: var(--font-family-two);
+}
+
+.about-me-text {
+  color: var(--main-grey);
+  font-size: 1rem;
+  font-weight: 100;
+  font-family: var(--font-family-two);
+}
