@@ -5,6 +5,7 @@
 @import "./navbar.css";
 @import "./hero_page.css";
 @import "./contact_me.css";
+@import "./about.css";
 
 :root {
   --main-orange: #EF6248;

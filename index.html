@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,17 +8,38 @@
   <link rel="stylesheet" type="text/css" media="screen" href="./css/main.css" />
   <script src="https://kit.fontawesome.com/b924605438.js"></script>
 </head>
-<body>
+<body class="index-page">
 
   <div class="container">
+    <!-- Mobile NAV -->
+    <nav class="mobile-menu">
+      <div id="menuToggle">
+    
+        <input type="checkbox" />
+    
+        <span></span>
+        <span></span>
+        <span></span>
+    
+      <ul id="menu">
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="#">Experiences</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="./contact_me.html">Contact me</a></li>
+        <li><a href="#">Portfolio</a></li>
+      </ul>
+      </div>
+    </nav>
+    <!-- Desktop NAV -->
     <nav class="navbar">
       <div class="links">
         <div class="profile-image-container">
             <img class="profile-image" src="./images/profile_image.png" alt="">
         </div>
-        <a href="#" class="navbar-link"> Home          </a>
+        <a href="./index.html" class="navbar-link"> Home          </a>
         <a href="#" class="navbar-link"> Experiences    </a>
-        <a href="#" class="navbar-link"> About Me      </a>
+        <a href="./about.html" class="navbar-link"> About  </a>
         <a href="#" class="navbar-link"> Blog </a>
         <a href="./contact_me.html" class="navbar-link"> Contact Me </a>
         <a href="#" class="navbar-link"> Portfolio  </a>
@@ -32,7 +53,7 @@
           <h1> I'm Max Kelly </h1>
           <h3> A Junior Software Developer</h3>
           <div class="buttons">
-            <button id="contact-me-home-button"> Contact me </button>
+           <a href="./contact_me.html"><button id="contact-me-home-button"> Contact me </button></a>
             <a href="https://github.com/maxckelly" target="_blank"><i class="fab fa-github-square social-icons"></i></a> 
             <a href="https://www.linkedin.com/in/maxckelly/" target="_blank"><i class="fab fa-linkedin social-icons"></i></a>
             <a href="https://www.instagram.com/max_ckelly/" target="_blank"><i class="fab fa-instagram social-icons"></i></a>

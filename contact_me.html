@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,7 +8,28 @@
   <link rel="stylesheet" type="text/css" media="screen" href="./css/main.css" />
   <script src="main.js"></script>
 </head>
-<body>
+<body class="contact-me-body">
+  <!-- Mobile NAV -->
+  <nav class="mobile-menu">
+    <div id="menuToggle">
+  
+      <input type="checkbox" />
+  
+      <span></span>
+      <span></span>
+      <span></span>
+
+      <ul id="menu">
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="#">Experiences</a></li>
+        <li><a href="./about.html">About</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="./contact_me.html">Contact me</a></li>
+        <li><a href="#">Portfolio</a></li>
+      </ul>
+    </div>
+  </nav>
+  <!-- Desktop NAV -->
   <nav class="navbar">
     <div class="links">
       <div class="profile-image-container">
@@ -16,50 +37,51 @@
       </div>
       <a href="./index.html" class="navbar-link"> Home </a>
       <a href="#" class="navbar-link"> Experience </a>
-      <a href="#" class="navbar-link"> About Me </a>
+      <a href="./about.html" class="navbar-link"> About</a>
+      <a href="#" class="navbar-link"> Blog </a>
       <a href="./contact_me.html" class="navbar-link"> Contact Me </a>
-      <a href="#" class="navbar-link"> My Portfolio </a>
+      <a href="#" class="navbar-link"> Portfolio </a>
     </div>
   </nav>
   
   <div class="empty-container-contact-me"></div>
   <div class="contact-page">
     <div class="hero-container">
-      <div class="hero-text">
-        <h1> Contact Me </h1>
-        <h4> Please fill out the form or feel free to contact me via
+      <div class="contact-me-text-container">
+        <h1 class="contact-me-text-heading"> Contact Me </h1>
+        <h4 class="contact-me-text"> Please fill out the form or feel free to contact me via
           <br> Email: maxckel@gmail.com
-          <br> Mobile 0419096087 
+          <br> Mobile: 0419096087 
         </h4>
       </div>
-      <form class="contact-form">
-        <h1 class="h1-text-in-form"> Send me a message</h1>
-        <div class="row">
-          <label class="required" for="name">Your name:</label>
-          <br />
-          <input id="name" class="input" name="name" type="text" value="" size="30" placeholder="Name"/>
-          <br />
-          <span id="name_validation" class="error_message"></span>
-        </div>
+        <form class="contact-form">
+          <h1 class="h1-text-in-form"> Send me a message</h1>
           <div class="row">
-          <label class="required" for="email">Your email:</label>
-          <br />
-          <input id="email" class="input" name="email" type="text" value="" size="30" placeholder="email"/>
-          <br />
-          <span id="email_validation" class="error_message"></span>
-        </div>
-        <div class="row">
-          <label class="required" for="message">Your message:</label>
-          <br />
-          <textarea id="message" class="input" name="message" rows="7" cols="30" placeholder="Your message"></textarea>
-          <br />
-          <span id="message_validation" class="error_message"></span>
-        </div>
-        <div class="contact-buttons">
-          <button id="contact-me-button" type="submit" value="Send email">Contact Me</button>
-        </div>
+            <label class="required" for="name">Your name:</label>
+            <br />
+            <input id="name" class="input" name="name" type="text" value="" size="30" placeholder="Name"/>
+            <br />
+            <span id="name_validation" class="error_message"></span>
+          </div>
+            <div class="row">
+            <label class="required" for="email">Your email:</label>
+            <br />
+            <input id="email" class="input" name="email" type="text" value="" size="30" placeholder="email"/>
+            <br />
+            <span id="email_validation" class="error_message"></span>
+          </div>
+          <div class="row">
+            <label class="required" for="message">Your message:</label>
+            <br />
+            <textarea id="message" class="input" name="message" rows="7" cols="30" placeholder="Your message"></textarea>
+            <br />
+            <span id="message_validation" class="error_message"></span>
+          </div>
+          <div class="contact-buttons">
+            <button id="contact-me-button" type="submit" value="Send email">Contact Me</button>
+          </div>
+        </form>
       </div>
-    </div>
   </div>
 </body>
 </html>
