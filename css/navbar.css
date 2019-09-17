@@ -38,6 +38,10 @@ body {
   color: var(--main-orange);
 }
 
+.current {
+  color: var(--main-orange);
+}
+
 .mobile-menu {
   display: none;
 }
