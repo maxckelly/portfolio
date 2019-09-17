@@ -1,0 +1,38 @@
+body {
+  margin: 0px;
+}
+
+.main-blog-post {
+  width: 100vw;
+  height: 100vh;
+}
+
+
+.blog-post-container {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 50% 50%;
+}
+
+
+.blog-image-container {
+  background: url("./../images/casey-horner-nN2EXvu12XI-unsplash.jpg") no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100%;
+}
+
+
+.header-container {
+  grid: 1 / 2 / 2 / 1; 
+}
+
+.back-cross {
+  grid: 1 / 1;
+}
+
+.content-container {
+  grid: 1 / 1;
+}
