@@ -28,8 +28,8 @@ body {
 .contact-me-text {
   color: var(--main-grey);
   font-size: 1rem;
-  font-weight: 100;
-  font-family: var(--font-family-two);
+  font-family: var(--font-family-three);
+  font-weight: normal;
 }
 
 .contact-form {

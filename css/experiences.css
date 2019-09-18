@@ -1,0 +1,64 @@
+body {
+  margin: 0px;
+}
+
+#experience-page-header {
+  margin-left: 2rem;
+  color: var(--main-green);
+}
+
+#experience-page {
+  margin: 0px;
+  background: url("./../images/svgOption3.svg") ;
+  background-size: cover;
+}
+
+.main-container {
+  margin-left: 1rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.experiences-container {
+  border: 1px solid var(--main-grey);
+  width: 26rem;
+  border-radius: 0.5rem;
+  margin: 1rem;
+  box-shadow: var(--box-shadow);
+  background: var(--main-white);
+}
+
+.experience-text {
+  margin-left: 1rem;
+}
+
+.experience-text h1 {
+  color: var(--main-green);
+}
+
+.experience-text h3 {
+  color: var(--main-grey);
+  font-family: var(--font-family-three);
+  font-weight: normal;
+}
+
+.experience-text h4 {
+  color: var(--main-grey);
+  font-family: var(--font-family-three);
+  font-weight: normal;
+}
+
+.experience-text p {
+  color: var(--main-grey);
+  font-family: var(--font-family-three);
+  font-weight: normal;
+}
+
+.google-map {
+  border-radius: 0rem 0rem 0.5rem 0.5rem;
+  height: 20rem;
+  width: 26rem;
+}
