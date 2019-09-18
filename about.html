@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" media="screen" href="./css/main.css" />
 </head>
-<body>
+<body id="about-page">
   <!-- Mobile Nav -->
   <nav class="mobile-menu">
     <div id="menuToggle">
@@ -19,24 +19,12 @@
       <span></span>
   
       <ul id="menu">
-        <a href="./index.html">
-          <li>Home</li>
-        </a>
-        <a href="#">
-          <li>Experiences</li>
-        </a>
-        <a href="./about.html">
-          <li>About me</li>
-        </a>
-        <a href="#">
-          <li>Blog</li>
-        </a>
-        <a href="./contact_me.html">
-          <li>Contact me</li>
-        </a>
-        <a href="#">
-          <li>Portfolio</li>
-        </a>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./experiences.html">Experiences</a></li>
+        <li><a href="./about.html">About</a></li>
+        <li><a href="./blog.html">Blog</a></li>
+        <li><a href="./contact_me.html">Contact me</a></li>
+        <li><a href="#">Portfolio</a></li>
       </ul>
     </div>
   </nav>
@@ -47,20 +35,22 @@
         <img class="profile-image" src="./images/profile_image.png" alt="">
       </div>
       <a href="./index.html" class="navbar-link"> Home </a>
-      <a href="#" class="navbar-link"> Experiences </a>
-      <a href="./about.html" class="navbar-link"> About </a>
-      <a href="#" class="navbar-link"> Blog </a>
+      <a href="./experiences.html" class="navbar-link"> Experiences </a>
+      <a href="./about.html" class="navbar-link current"> About </a>
+      <a href="./blog.html" class="navbar-link"> Blog </a>
       <a href="./contact_me.html" class="navbar-link"> Contact Me </a>
       <a href="#" class="navbar-link"> Portfolio </a>
     </div>
   </nav>
   <div class="about-me-container">
-    <div class="about-me-text">
-      <h1> About Me </h1>
-      <h4> Please fill out the form or feel free to contact me via
-        <br> Email: maxckel@gmail.com
-        <br> Mobile: 0419096087
-      </h4>
+    <div class="about-me">
+      <h1 class="about-me-text-heading"> About Me </h1>
+      <div class="about-me-text-container">
+        <h4 class="about-me-text"> Please fill out the form or feel free to contact me via
+          <br> Email: maxckel@gmail.com
+          <br> Mobile: 0419096087
+        </h4>
+      </div>
     </div>
 </body>
 </html>

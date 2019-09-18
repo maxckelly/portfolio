@@ -72,6 +72,18 @@ a {
   cursor: pointer;
 }
 
+#download-resume-home-button {
+  color: var(--main-orange);
+  font-size: 1rem;
+  font-weight: bold;
+  margin-left: 1rem;
+  background: var(--main-white);
+  border: var(--main-grey);
+  border-radius: 10px;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
 .buttons {
   display: flex;
   align-items: center;
@@ -80,8 +92,7 @@ a {
 .social-icons {
   color: var(--main-white);
   font-size: 2rem;
-  margin-right: 5px;
-  margin-left: 10px;
+  margin-left: 1rem;
 }
 
 .social-icons:hover {
