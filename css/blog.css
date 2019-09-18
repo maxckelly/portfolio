@@ -55,6 +55,7 @@ body {
   font-weight: bold;
   padding: 0.5rem;
   color: var(--main-orange);
+  cursor: pointer;
 }
 
 .blog-button:hover {
@@ -90,7 +91,7 @@ body {
 }
 
 #blog-two-img {
-  background: linear-gradient(-225deg, rgba(0,0,0,0.61) 0%, rgba(0,0,0,0.40) 50%), url("./../images/pankaj-patel-6JVlSdgMacE-unsplash.jpg");
+  background: linear-gradient(-225deg, rgba(0,0,0,0.61) 0%, rgba(0,0,0,0.40) 50%), url("./../images/heli_photo.jpg");
   border-radius: 0.5rem;
   height: 100%;
   background-size: cover;
@@ -126,11 +127,28 @@ body {
 }
 
 #blog-four-img {
-  background: linear-gradient(-225deg, rgba(0,0,0,0.61) 0%, rgba(0,0,0,0.40) 50%), url("./../images/casey-horner-nN2EXvu12XI-unsplash.jpg");
+  background: linear-gradient(-225deg, rgba(0,0,0,0.61) 0%, rgba(0,0,0,0.40) 50%), url("./../images/heli_photo.jpg");
   border-radius: 0.5rem;
   height: 100%;
   background-size: cover;
   background-position: center;
 }
 
+/* BLOG FIVE */
+
+#blog-five {
+  grid-area: 1 / 4 / 5 / 4;
+  background: gold;
+  border-radius: 0.5rem;
+  border: 1px solid var(--main-grey);
+  box-shadow: 0 28px 16px -26px rgba(0, 0, 0);
+}
+
+#blog-five-img {
+  background: linear-gradient(-225deg, rgba(0,0,0,0.61) 0%, rgba(0,0,0,0.40) 50%), url("./../images/casey-horner-nN2EXvu12XI-unsplash.jpg");
+  border-radius: 0.5rem;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+}
 

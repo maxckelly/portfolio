@@ -44,6 +44,12 @@ body {
   font-weight: normal;
 }
 
+.experience-text p {
+  color: var(--main-grey);
+  font-family: var(--font-family-three);
+  font-weight: normal;
+}
+
 .google-map {
   border-radius: 0rem 0rem 0.5rem 0.5rem;
   height: 20rem;

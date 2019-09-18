@@ -21,6 +21,7 @@ body {
   align-content: flex-start;
   width: 50%;
   height: 100%;
+  margin-left: 3rem;
 }
 
 .header-container {
@@ -36,6 +37,7 @@ body {
 
 .blog-post-header {
   font-family: var(--font-family-two);
+  color: var(--main-green);
 }
 
 .back-cross {
