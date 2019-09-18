@@ -7,6 +7,12 @@ body {
   color: var(--main-green);
 }
 
+#experience-page {
+  margin: 0px;
+  background: url("./../images/svgOption3.svg") ;
+  background-size: cover;
+}
+
 .main-container {
   margin-left: 1rem;
   display: flex;
@@ -22,6 +28,7 @@ body {
   border-radius: 0.5rem;
   margin: 1rem;
   box-shadow: var(--box-shadow);
+  background: var(--main-white);
 }
 
 .experience-text {
@@ -29,7 +36,7 @@ body {
 }
 
 .experience-text h1 {
-  color: var(--main-orange);
+  color: var(--main-green);
 }
 
 .experience-text h3 {
