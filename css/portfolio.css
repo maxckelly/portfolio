@@ -11,9 +11,9 @@ body {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -24,7 +24,7 @@ body {
 .portfolio-main-container h1 {
   margin: 0px;
   margin-left: 2rem;
-  color: var(--main-orange);
+  color: var(--main-green);
 }
 
 .portfolio-main-container hr {
@@ -51,16 +51,16 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  width: 100%;
+  width: 80%;
   height: 100%;
   margin-top: 5rem;
   padding-bottom: 2rem;
-  border-bottom: 1px solid var(--main-grey);
+  padding-top: 2rem;
 }
 
 .portfolio-inner h1 {
   margin: 0px;
-  color: var(--main-green);
+  color: var(--main-orange);
 }
 
 .portfolio-inner p {

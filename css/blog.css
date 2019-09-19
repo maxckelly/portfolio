@@ -8,6 +8,11 @@ body {
   background-size: cover;
 }
 
+.blog-page-title {
+  color: var(--main-green);
+  
+}
+
 .blog-main-container {
   width: 100vw;
   height: calc(100vh - 82px);

@@ -2,23 +2,19 @@ body {
   margin: 0px;
 }
 
-#portfolio-item-one {
-  
-}
-
 .portfolio-main-container {
   width: 100vw;
   height: 100vh;
   display: flex;
   justify-content: flex-start;
-  align-items: flex-start;
+  align-items: center;
   flex-direction: column;
   margin-top: 2rem;
 
   h1 {
     margin: 0px;
     margin-left: 2rem;
-    color: var(--main-orange);
+    color: var(--main-green);
   }
 
   hr {
@@ -37,15 +33,15 @@ body {
   justify-content: center;
   align-items: flex-start;
   flex-direction: row;
-  width: 100%;
+  width: 80%;
   height: 100%;
   margin-top: 5rem;
   padding-bottom: 2rem;
-  border-bottom: 1px solid var(--main-grey);
-
+  padding-top: 2rem;
+  
   h1 {
     margin: 0px;
-    color: var(--main-green);
+    color: var(--main-orange);
   }
 
   p {

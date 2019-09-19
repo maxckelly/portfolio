@@ -28,7 +28,7 @@ body {
   border-radius: 0.5rem;
   margin: 1rem;
   box-shadow: var(--box-shadow);
-  /* background: var(--main-white); */
+  background: var(--main-white);
 }
 
 .experience-text {
