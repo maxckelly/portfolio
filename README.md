@@ -47,6 +47,15 @@
 - The next stage was to then do some rough sketches on paper of what I want my site to look like and how I want it to flow. See below for drawings.
 
 
+![Site Map](./images/development-imgs/sketch_img_1.jpg)
 
+![Site Map](./images/development-imgs/sketch_img_2.jpg)
 
+![Site Map](./images/development-imgs/sketch_img_3.jpg)
+
+![Site Map](./images/development-imgs/sketch_img_4.jpg)
+
+![Site Map](./images/development-imgs/sketch_img_5.jpg)
+
+![Site Map](./images/development-imgs/sketch_img_6.jpg)
 
