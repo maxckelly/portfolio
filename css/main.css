@@ -9,6 +9,7 @@
 @import "./blog.css";
 @import "./blog_post.css";
 @import "./experiences.css";
+@import "./portfolio.css";
 
 :root {
   --main-orange: #EF6248;

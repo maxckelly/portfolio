@@ -2,59 +2,22 @@ body {
   margin: 0px;
 } 
 
-.facts-inner {
-  background:rgb(7, 218, 165);
-  padding: 1em;
-  border-radius: 10px;
-  width: 250px;
-  clip-path: circle(10% at 90% 20%);
-  transition: all .5s ease-in-out;
-  cursor: pointer;
-
-  &:hover {
-    clip-path: circle(75%);
-    background: #00B6FF;
-  }
-
-  span {
-    float: right;
-    color: white;
-    font-weight: bold;
-    transition: color .5s;
-    position: relative;
-    margin-right: 4%;
-  }
-
-  &:hover span {
-    color: rgba(255,255,255,0);
-  }
-
-  h1 {
-    color: white;
-    margin: 0;
-  }
-
-  p {
-    color: white;
-    font-size: .8rem;
-  }
-}
-
 #about-page {
   margin: 0px;
   background: url("./../images/svgOption6.svg") no-repeat;
+  width: 100vw;
+  height: 100vh;
   background-size: cover;
-}
-
-.about-me {
-  margin-left: 10rem;
 }
 
 .about-me-container {
   display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.about-me {
+  margin-left: 10rem;
 }
 
 .about-me-text-heading {
@@ -69,10 +32,59 @@ body {
   padding: 3rem;
 }
 
+.about-me-text-container {
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+    padding: 10rem;
+}
+
 .about-me-text {
   color: var(--main-grey);
   font-size: 1rem;
   font-weight: 100;
   font-family: var(--font-family-two);
+}
+
+.facts-container {
+  margin-right: 3rem;
+
+  .facts-inner {
+    background:rgb(7, 218, 165);
+    padding: 1em;
+    border-radius: 10px;
+    width: 19rem;
+    height: 10rem;
+    clip-path: circle(10% at 90% 20%);
+    transition: all .5s ease-in-out;
+    cursor: pointer;
+
+    &:hover {
+      clip-path: circle(75%);
+      background: #00B6FF;
+    }
+
+    span {
+      float: right;
+      color: white;
+      font-weight: bold;
+      transition: color .5s;
+      position: relative;
+      margin-right: 5%;
+      margin-top: 4%;
+    }
+
+    &:hover span {
+      color: rgba(255,255,255,0);
+    }
+
+    h1 {
+      color: white;
+      margin: 0;
+    }
+
+    p {
+      color: white;
+      font-size: .8rem;
+    }
+  }
 }
 
