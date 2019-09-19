@@ -26,7 +26,7 @@
 
  ## SCREENSHOTS OF DEVELOPMENT PROCESS:
 
-- The first process was to get inspiration for what I want my site to look like. The below are some examples of where I got my inspiration from and how it put my designs into effect. Below are screen shots from my Dribble board.
+### The first process was to get inspiration for what I want my site to look like. The below are some examples of where I got my inspiration from and how it put my designs into effect. Below are screen shots from my Dribble board.
 
 ![Site Map](./images/development-imgs/moodboard_img_1.png)
 
@@ -44,7 +44,7 @@
 
 ![Site Map](./images/development-imgs/moodboard_img_8.png)
 
-- The next stage was to then do some rough sketches on paper of what I want my site to look like and how I want it to flow. See below for drawings.
+### The next stage was to then do some rough sketches on paper of what I want my site to look like and how I want it to flow. See below for drawings.
 
 
 ![Site Map](./images/development-imgs/sketch_img_1.jpg)
@@ -58,4 +58,39 @@
 ![Site Map](./images/development-imgs/sketch_img_5.jpg)
 
 ![Site Map](./images/development-imgs/sketch_img_6.jpg)
+
+### Once I had done some rough sketches I then went on to Sketch the design platform and made wireframes to get a better idea of how things will look. See images below.
+
+
+![Site Map](./images/development-imgs/design_image_6.png)
+
+![Site Map](./images/development-imgs/design_image_5.png)
+
+![Site Map](./images/development-imgs/design_image_4.png)
+
+![Site Map](./images/development-imgs/design_image_3.png)
+
+![Site Map](./images/development-imgs/design_image_2.png)
+
+![Site Map](./images/development-imgs/design_image_1.png)
+
+
+### Once I had finished the wire frames I then began to build the SVG's needed and start development. 
+
+![Site Map](./images/development-imgs/development_img_2.png)
+
+![Site Map](./images/development-imgs/development_img_1.png)
+
+![Site Map](./images/development-imgs/development_img_3.png)
+
+![Site Map](./images/development-imgs/development_img_4.png)
+
+![Site Map](./images/development-imgs/development_img_5.png)
+
+
+
+
+
+
+
 
