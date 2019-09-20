@@ -2,23 +2,19 @@ body {
   margin: 0px;
 }
 
-#portfolio-item-one {
-  
-}
-
 .portfolio-main-container {
   width: 100vw;
   height: 100vh;
   display: flex;
   justify-content: flex-start;
-  align-items: flex-start;
+  align-items: center;
   flex-direction: column;
   margin-top: 2rem;
 
   h1 {
     margin: 0px;
     margin-left: 2rem;
-    color: var(--main-orange);
+    color: var(--main-green);
   }
 
   hr {
@@ -37,15 +33,15 @@ body {
   justify-content: center;
   align-items: flex-start;
   flex-direction: row;
-  width: 100%;
+  width: 80%;
   height: 100%;
   margin-top: 5rem;
   padding-bottom: 2rem;
-  border-bottom: 1px solid var(--main-grey);
-
+  padding-top: 2rem;
+  
   h1 {
     margin: 0px;
-    color: var(--main-green);
+    color: var(--main-orange);
   }
 
   p {
@@ -72,6 +68,39 @@ body {
     border: 1px solid var(--main-grey);
   }
 }
+
+// Media Queries variables
+$breakpoint-responsive: 600px;
+$breakpoint-iphone-xr: 414px; 
+$breakpoint-iphone-x-xs: 375px;
+$breakpoint-iphone-6-7-8-plus: 414px;
+$breakpoint-iphone-6-7-8: 375px;
+$breakpoint-iphone-5-SE: 320px;
+$breakpoint-ipad-pro-12-9inch: 320px;
+$breakpoint-ipad-pro-10-5inch: 834px;
+
+@media only screen and (max-width: $breakpoint-responsive) {
+
+  .portfolio-inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    margin-top: 5rem;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    margin-left: 0px;
+      
+    .portfolio-text {
+      width: 50%;
+      margin-left: 0rem;
+    }
+  }
+
+}
+
 
 
 

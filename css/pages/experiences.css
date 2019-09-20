@@ -4,7 +4,7 @@ body {
 
 #experience-page {
   margin: 0px;
-  background: url("./../images/svgOption6.svg") ;
+  background: url("./../../images/svgOption6.svg") ;
   background-size: cover; 
 }
 
@@ -28,7 +28,7 @@ body {
   border-radius: 0.5rem;
   margin: 1rem;
   box-shadow: var(--box-shadow);
-  /* background: var(--main-white); */
+  background: var(--main-white);
 }
 
 .experience-text {
@@ -37,24 +37,29 @@ body {
 
 .experience-text h1 {
   color: var(--main-green);
+  font-family: var(--font-family-two);
   border-bottom: 1px solid grey;
+}
+
+.experience-text h1:hover {
+  color: var(--main-orange);
 }
 
 .experience-text h3 {
   color: var(--main-grey);
-  font-family: var(--font-family-three);
+  font-family: var(--font-family-one);
   font-weight: normal;
 }
 
 .experience-text h4 {
   color: var(--main-grey);
-  font-family: var(--font-family-three);
+  font-family: var(--font-family-one);
   font-weight: normal;
 }
 
 .experience-text p {
   color: var(--main-grey);
-  font-family: var(--font-family-three);
+  font-family: var(--font-family-one);
   font-weight: normal;
 }
 
@@ -62,4 +67,19 @@ body {
   border-radius: 0rem 0rem 0.5rem 0.5rem;
   height: 20rem;
   width: 26rem;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 597px) {
+  html {
+    background: var(--main-grey);
+  }
+
+  #experience-page-header {
+  margin-left: 2rem;
+  margin-top: 5rem;
+  color: var(--main-green);
+  }
+
 }
