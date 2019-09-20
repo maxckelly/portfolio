@@ -14,10 +14,9 @@ body {
 }
 
 .contact-page {
-  height: calc(100vh - 162px);
+  height: 100vh;
   width: 100vw;
 }
-
 
 .contact-me-text-heading {
   color: var(--main-green);

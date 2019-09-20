@@ -17,6 +17,7 @@
 ## TARGET AUDIENCE 
 
 - The target audience for my portfolio is tech businesses, job recruiters, other developers and others in the tech industry.  
+- The main focus was a desktop version as a majority of my audience will be at work using a computer. 
 ## SITE MAP:
 
 - https://www.gloomaps.com/6blPZpoTcz

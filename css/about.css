@@ -99,4 +99,10 @@ body {
   color: white;
   font-size: .8rem;
 }
+
+@media (max-width: 600px) {
+  .about-me-text {
+    color: var(--main-white);
+  }
+}
 /*# sourceMappingURL=about.css.map */

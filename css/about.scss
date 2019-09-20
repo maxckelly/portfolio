@@ -1,3 +1,6 @@
+// Variables
+
+
 body {
   margin: 0px;
 } 
@@ -85,6 +88,23 @@ body {
       color: white;
       font-size: .8rem;
     }
+  }
+}
+
+// Media Queries variables
+$breakpoint-responsive: 600px;
+$breakpoint-iphone-xr: 414px; 
+$breakpoint-iphone-x-xs: 375px;
+$breakpoint-iphone-6-7-8-plus: 414px;
+$breakpoint-iphone-6-7-8: 375px;
+$breakpoint-iphone-5-SE: 320px;
+$breakpoint-ipad-pro-12-9inch: 320px;
+$breakpoint-ipad-pro-10-5inch: 834px;
+
+
+@media (max-width: $breakpoint-responsive) {
+  .about-me-text {
+    color: var(--main-white);
   }
 }
 

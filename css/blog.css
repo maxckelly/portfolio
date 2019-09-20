@@ -70,7 +70,7 @@ body {
 /* BLOG ONE */
 
 #blog-one-img {
-  background: linear-gradient(-225deg, rgba(0,0,0,0.61) 0%, rgba(0,0,0,0.40) 50%), url("./../images/japan_blog_img.jpg");
+  background: linear-gradient(-225deg, rgba(0,0,0,0.61) 0%, rgba(0,0,0,0.40) 50%), url("./../images/japan_trip.jpg");
   border-radius: 0.5rem;
   height: 100%;
   background-size: cover;
@@ -96,7 +96,7 @@ body {
 }
 
 #blog-two-img {
-  background: linear-gradient(-225deg, rgba(0,0,0,0.61) 0%, rgba(0,0,0,0.40) 50%), url("./../images/heli_photo.jpg");
+  background: linear-gradient(-225deg, rgba(0,0,0,0.61) 0%, rgba(0,0,0,0.40) 50%), url("./../images/protfolio_site.png");
   border-radius: 0.5rem;
   height: 100%;
   background-size: cover;
@@ -155,5 +155,11 @@ body {
   height: 100%;
   background-size: cover;
   background-position: center;
+}
+
+@media only screen and (max-width: 590px) {
+  .blog-main-container {
+    margin-top: 5rem;
+  }
 }
 
