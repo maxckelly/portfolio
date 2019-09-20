@@ -112,8 +112,6 @@ a {
 
 @media only screen and (max-width: 850px) {
 
-
-
   .hero-page {
     height: calc(100vh);
     width: 100vw;
@@ -125,6 +123,7 @@ a {
     justify-content: space-around;
     align-items: center;
   }
+  
   .main-profile-img {
     margin-left: 3rem;
   }
@@ -158,7 +157,7 @@ a {
 @media only screen and (max-width: 580px) {
 
   .hero-text {
-  margin-left: 5rem;
+    margin-left: 5rem;
   }
   .main-profile-img {
     display: none;

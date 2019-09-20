@@ -69,5 +69,38 @@ body {
   }
 }
 
+// Media Queries variables
+$breakpoint-responsive: 600px;
+$breakpoint-iphone-xr: 414px; 
+$breakpoint-iphone-x-xs: 375px;
+$breakpoint-iphone-6-7-8-plus: 414px;
+$breakpoint-iphone-6-7-8: 375px;
+$breakpoint-iphone-5-SE: 320px;
+$breakpoint-ipad-pro-12-9inch: 320px;
+$breakpoint-ipad-pro-10-5inch: 834px;
+
+@media only screen and (max-width: $breakpoint-responsive) {
+
+  .portfolio-inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    margin-top: 5rem;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    margin-left: 0px;
+      
+    .portfolio-text {
+      width: 50%;
+      margin-left: 0rem;
+    }
+  }
+
+}
+
+
 
 
