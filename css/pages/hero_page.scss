@@ -154,6 +154,12 @@ a {
   }
 }
 
+@media only screen and (max-width: 616px) {
+  .hero-text {
+    margin-top: 0px;
+  }
+}
+
 @media only screen and (max-width: 580px) {
 
   .hero-text {
