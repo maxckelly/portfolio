@@ -37,7 +37,8 @@ body, html {
 }
 
 .blog-post-content {
-  font-family: var(--font-family-three);
+  font-family: var(--font-family-one);
+  font-weight: lighter;
 }
 
 .blog-post-header {
@@ -59,8 +60,8 @@ body, html {
   align-items: center;
 }
 
-.blog-img {
-  background: url("./../images/japan_trip.jpg");
+#blog-img-two {
+  background: url("./../../images/japan_trip.jpg");
   background-position: center center;
   background-size: cover;
   height: 100%;

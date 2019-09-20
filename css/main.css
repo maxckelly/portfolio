@@ -2,16 +2,18 @@
 @import url("https://fonts.googleapis.com/css?family=Manjari:700|Roboto:700&display=swap");
 
 /* CSS Files */
-@import "./navbar.css";
-@import "./hero_page.css";
-@import "./contact_me.css";
-@import "./about.css";
-@import "./blog.css";
-@import "./blog_post.css";
-@import "./blog_post_two.css";
-@import "./experiences.css";
-@import "./portfolio.css";
+@import "./layout/navbar.css";
+@import "./pages/hero_page.css";
+@import "./pages/contact_me.css";
+@import "./pages/about.css";
+@import "./pages/blog.css";
+@import "./pages/blog_post.css";
+@import "./pages/blog_post_two.css";
+@import "./pages/experiences.css";
+@import "./pages/portfolio.css";
 
+/* BUTTON FILES */
+@import "./components/buttons.scss";
 
 :root {
   --main-orange: #EF6248;

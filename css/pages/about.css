@@ -4,7 +4,7 @@ body {
 
 #about-page {
   margin: 0px;
-  background: url("./../images/svgOption6.svg") no-repeat;
+  background: url("./../../images/svgOption6.svg") no-repeat;
   width: 100vw;
   height: 100vh;
   background-size: cover;
@@ -49,7 +49,7 @@ body {
   color: var(--main-grey);
   font-size: 1rem;
   font-weight: 100;
-  font-family: var(--font-family-two);
+  font-family: var(--font-family-one);
 }
 
 .facts-container {

@@ -4,7 +4,7 @@ body {
 
 #contact-me-body {
   margin: 0px;
-  background: url("./../images/svgOption6.svg") no-repeat;
+  background: url("./../../images/svgOption6.svg") no-repeat;
   background-size: cover;
   vertical-align: top;
 }

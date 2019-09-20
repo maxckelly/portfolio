@@ -4,7 +4,7 @@ body {
 
 #blog-page {
   margin: 0px;
-  background: url("./../images/svgOption6.svg") no-repeat;
+  background: url("./../../images/svgOption6.svg") no-repeat;
   background-size: cover;
 }
 
@@ -70,7 +70,7 @@ body {
 /* BLOG ONE */
 
 #blog-one-img {
-  background: linear-gradient(-225deg, rgba(0,0,0,0.61) 0%, rgba(0,0,0,0.40) 50%), url("./../images/japan_trip.jpg");
+  background: linear-gradient(-225deg, rgba(0,0,0,0.61) 0%, rgba(0,0,0,0.40) 50%), url("./../../images/japan_trip.jpg");
   border-radius: 0.5rem;
   height: 100%;
   background-size: cover;
@@ -96,7 +96,7 @@ body {
 }
 
 #blog-two-img {
-  background: linear-gradient(-225deg, rgba(0,0,0,0.61) 0%, rgba(0,0,0,0.40) 50%), url("./../images/protfolio_site.png");
+  background: linear-gradient(-225deg, rgba(0,0,0,0.61) 0%, rgba(0,0,0,0.40) 50%), url("./../../images/protfolio_site.png");
   border-radius: 0.5rem;
   height: 100%;
   background-size: cover;
@@ -114,7 +114,7 @@ body {
 }
 
 #blog-three-img {
-  background: linear-gradient(-225deg, rgba(0,0,0,0.61) 0%, rgba(0,0,0,0.40) 50%), url("./../images/pankaj-patel-6JVlSdgMacE-unsplash.jpg");
+  background: linear-gradient(-225deg, rgba(0,0,0,0.61) 0%, rgba(0,0,0,0.40) 50%), url("./../../images/pankaj-patel-6JVlSdgMacE-unsplash.jpg");
   border-radius: 0.5rem;
   height: 100%;
   background-size: cover;
@@ -132,7 +132,7 @@ body {
 }
 
 #blog-four-img {
-  background: linear-gradient(-225deg, rgba(0,0,0,0.61) 0%, rgba(0,0,0,0.40) 50%), url("./../images/heli_photo.jpg");
+  background: linear-gradient(-225deg, rgba(0,0,0,0.61) 0%, rgba(0,0,0,0.40) 50%), url("./../../images/heli_photo.jpg");
   border-radius: 0.5rem;
   height: 100%;
   background-size: cover;
@@ -150,7 +150,7 @@ body {
 }
 
 #blog-five-img {
-  background: linear-gradient(-225deg, rgba(0,0,0,0.61) 0%, rgba(0,0,0,0.40) 50%), url("./../images/casey-horner-nN2EXvu12XI-unsplash.jpg");
+  background: linear-gradient(-225deg, rgba(0,0,0,0.61) 0%, rgba(0,0,0,0.40) 50%), url("./../../images/superbowl_img.jpg");
   border-radius: 0.5rem;
   height: 100%;
   background-size: cover;
