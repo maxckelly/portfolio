@@ -18,15 +18,14 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-.about-me {
-  margin-left: 10rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   height: 100vh;
-  width: 100%;
+  margin-left: 10rem;
 }
 
 .about-me-text-heading {
@@ -35,20 +34,16 @@ body {
   font-family: var(--font-family-two);
 }
 
-.about-me-text-container {
-  border: 1px solid var(--main-grey);
-  border-radius: 1rem;
-  width: 100%;
-  -webkit-box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
-          box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
-  padding: 10rem;
-}
-
 .about-me-text {
   color: var(--main-grey);
   font-size: 1rem;
   font-weight: 100;
   font-family: var(--font-family-one);
+  border: 1px solid var(--main-grey);
+  border-radius: 1rem;
+  -webkit-box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+          box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+  padding: 10rem;
 }
 
 .facts-container {
