@@ -61,7 +61,41 @@ body, html {
 }
 
 #blog-img-two {
+  /* The below is an unsplash image  */
   background: url("./../../images/japan_trip.jpg");
+  background-position: center center;
+  background-size: cover;
+  height: 100%;
+  width: 90%;
+  border-radius: 2rem;
+  box-shadow: 0 28px 16px -26px rgba(0, 0, 0);;
+}
+
+#blog-img-three {
+  /* The below is an unsplash image  */
+  background: url("./../../images/code_image.png");
+  background-position: center center;
+  background-size: cover;
+  height: 100%;
+  width: 90%;
+  border-radius: 2rem;
+  box-shadow: 0 28px 16px -26px rgba(0, 0, 0);;
+}
+
+#blog-img-four {
+  /* The below is an unsplash image  */
+  background: url("./../../images/site_code.png");
+  background-position: center center;
+  background-size: cover;
+  height: 100%;
+  width: 90%;
+  border-radius: 2rem;
+  box-shadow: 0 28px 16px -26px rgba(0, 0, 0);;
+}
+
+#blog-img-five {
+  /* The below is an unsplash image  */
+  background: url("./../../images/superbowl_img.jpg");
   background-position: center center;
   background-size: cover;
   height: 100%;
