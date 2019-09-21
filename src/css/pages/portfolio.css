@@ -1,0 +1,119 @@
+body {
+  margin: 0px;
+}
+
+.portfolio-main-container {
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 2rem;
+}
+
+.portfolio-main-container h1 {
+  margin: 0px;
+  margin-left: 2rem;
+  color: var(--main-green);
+}
+
+.portfolio-main-container hr {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+}
+
+.portfolio-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 80%;
+  height: 100%;
+  margin-top: 5rem;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}
+
+.portfolio-inner h1 {
+  margin: 0px;
+  color: var(--main-orange);
+}
+
+.portfolio-inner p {
+  font-family: var(--font-family-one);
+  font-weight: normal;
+}
+
+.portfolio-inner .portfolio-text {
+  width: 50%;
+  margin-left: 5rem;
+}
+
+.portfolio-inner .portfolio-icons {
+  font-size: 1.5rem;
+  margin-right: 1rem;
+  color: var(--main-orange);
+}
+
+.portfolio-inner .portfolio-icons:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.portfolio-inner .portfolio-image {
+  border-radius: 10px;
+  border: 1px solid var(--main-grey);
+}
+
+@media only screen and (max-width: 600px) {
+  .portfolio-inner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+    height: 100%;
+    margin-top: 5rem;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    margin-left: 0px;
+  }
+  .portfolio-inner .portfolio-text {
+    width: 50%;
+    margin-left: 0rem;
+  }
+}
+/*# sourceMappingURL=portfolio.css.map */

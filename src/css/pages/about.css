@@ -1,0 +1,122 @@
+body {
+  margin: 0px;
+}
+
+#about-page {
+  margin: 0px;
+  background: url("./../../images/svgOption6.svg") no-repeat;
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.about-me-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  height: 100vh;
+  margin-left: 10rem;
+}
+
+.about-me-text-heading {
+  color: var(--main-green);
+  font-size: 3.5rem;
+  font-family: var(--font-family-two);
+}
+
+.about-me-text {
+  color: var(--main-grey);
+  font-size: 1rem;
+  font-weight: 100;
+  font-family: var(--font-family-one);
+  border: 1px solid var(--main-grey);
+  border-radius: 1rem;
+  -webkit-box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+          box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+  padding: 10rem;
+}
+
+.facts-container {
+  margin-right: 3rem;
+  width: 30%;
+  height: 20vh;
+}
+
+.facts-container .facts-inner {
+  background: #07daa5;
+  padding: 1em;
+  border-radius: 10px;
+  width: 19rem;
+  height: 10rem;
+  -webkit-clip-path: circle(10% at 90% 20%);
+          clip-path: circle(10% at 90% 20%);
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+  cursor: pointer;
+}
+
+.facts-container .facts-inner:hover {
+  -webkit-clip-path: circle(75%);
+          clip-path: circle(75%);
+  background: #00B6FF;
+}
+
+.facts-container .facts-inner span {
+  float: right;
+  color: white;
+  font-weight: bold;
+  -webkit-transition: color .5s;
+  transition: color .5s;
+  position: relative;
+  margin-right: 5%;
+  margin-top: 4%;
+}
+
+.facts-container .facts-inner:hover span {
+  color: rgba(255, 255, 255, 0);
+}
+
+.facts-container .facts-inner h1 {
+  color: white;
+  margin: 0;
+}
+
+.facts-container .facts-inner p {
+  color: white;
+  font-size: .8rem;
+}
+
+@media (max-width: 600px) {
+  .about-me-text {
+    color: var(--main-white);
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  .about-me {
+    margin-left: 0px;
+    margin-top: 2rem;
+    height: 50vh;
+  }
+  .about-me-text-heading {
+    margin-left: 2rem;
+  }
+  .about-me-text-container {
+    padding: 0px;
+  }
+  .facts-container {
+    display: none;
+  }
+}
+/*# sourceMappingURL=about.css.map */
